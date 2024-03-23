@@ -1,0 +1,26 @@
+{
+  "name": "mcq-ai",
+  "version": "1.0.0",
+  "description": "This is an open sourced api service which takes in MMCQ questions, and responds with a collective logic of both Google's Bard (Gemini) AI and Chat GPT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmPat1l/mcq-ai.git"
+  },
+  "author": "Om Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmPat1l/mcq-ai/issues"
+  },
+  "homepage": "https://github.com/OmPat1l/mcq-ai#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "chatgpt": "^5.2.5",
+    "dotenv": "^16.4.5",
+    "openai-token": "^1.0.0"
+  }
+}
